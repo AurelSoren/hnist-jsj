@@ -206,7 +206,7 @@ def fetch_all_tasks(cfg: Config) -> list[dict]:
     return [
         {"task_id": t["task_id"], "zybt": t["zybt"],
          "score": t["score"], "is_new": False}
-        for t in done_raw if t["score"] == 100
+        for t in done_raw if t["score"] < 100
     ] + [
         {"task_id": t["task_id"], "zybt": t["zybt"],
          "score": 0, "is_new": True}
