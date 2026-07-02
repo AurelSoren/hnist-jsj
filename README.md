@@ -2,6 +2,8 @@
 
 > 教学平台接口学习示例。  
 > 本项目仅用于 Python 网络请求、接口交互、加密参数构造与命令行程序结构的学习研究。
+> <img width="1331" height="814" alt="100" src="https://github.com/user-attachments/assets/bcdb7221-0dc7-4c77-97ba-d554f8646580" />
+
 
 ## 重要声明
 
